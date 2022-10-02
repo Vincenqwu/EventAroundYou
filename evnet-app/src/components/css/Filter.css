@@ -1,4 +1,6 @@
-
+* {
+  font-family: Arial,Helvetica,sans-serif;
+}
 
 .filter-switch label {
     cursor: pointer;

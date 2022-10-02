@@ -27,7 +27,7 @@ export default function EventCardSliding() {
 
           <div className="card-description">
             <span>
-              <p>Event Detail</p>
+              <p><a href="./event">Event Details</a></p>
             </span>
             <span> • </span>
             <span>111</span>
