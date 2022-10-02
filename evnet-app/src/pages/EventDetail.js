@@ -10,8 +10,10 @@ import data from "../components/data"
 export default function EventDetail() {
   const [questions, setQuestions] = useState(data)
   return (
-    <div>
-    <Card className='specialCard'>
+    <div className='cardContainer'>
+    <div className='box'>
+      <div className='specialCard'>
+    <Card >
       <Card.Body>
         <Card.Title>New Service Offerings for SAP Customer Data Solutions</Card.Title>
         <ListGroup variant="flush">
@@ -22,6 +24,7 @@ export default function EventDetail() {
       </ListGroup>
       </Card.Body>
     </Card>
+    </div>
     <div>
         <div className="event-container">
           <h3>Ideas and Gains from other Locations</h3>
@@ -32,6 +35,7 @@ export default function EventDetail() {
           </section>
         </div>
       </div>
+    </div>
     </div>
   )
 }
