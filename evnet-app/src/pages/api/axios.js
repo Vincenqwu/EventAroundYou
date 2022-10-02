@@ -2,5 +2,5 @@ import axios from 'axios';
 
 
 export default axios.create({
-	baseURL: process.env.REACT_APP_TOWNS_SERVICE_URL,
+	baseURL: process.env.REACT_SERVER_URL,
 });
