@@ -1,0 +1,25 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&family=Roboto&family=Montserrat:wght@500");
+
+h1{
+    color: black;
+    font-family: 'Oswald';
+}
+
+
+#home {
+	background: url('../images/home_pic3.jpg') no-repeat center center fixed;
+	display: table;
+	height: 60vh;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+    opacity: .8;
+}
+
+
+.future-header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
