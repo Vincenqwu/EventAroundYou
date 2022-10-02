@@ -3,9 +3,14 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import "./css/Card.css";
-
+import "./css/EventDetail.css";
+import SingleQuestion from "../components/Question"
+import { useState } from "react";
+import data from "../components/data"
 export default function EventDetail() {
+  const [questions, setQuestions] = useState(data)
   return (
+    <div>
     <Card className='specialCard'>
       <Card.Body>
         <Card.Title>New Service Offerings for SAP Customer Data Solutions</Card.Title>
@@ -17,5 +22,16 @@ export default function EventDetail() {
       </ListGroup>
       </Card.Body>
     </Card>
+    <div>
+        <div className="event-container">
+          <h3>Ideas and Gains from other Locations</h3>
+          <section className="info">
+            {questions.map((question) => (
+              <SingleQuestion key={question.id} {...question} />
+            ))}
+          </section>
+        </div>
+      </div>
+    </div>
   )
 }
