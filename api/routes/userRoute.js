@@ -103,5 +103,36 @@ userRoute.get('/:username', express.json(), verifyJWT, async (req, res) => {
   }
 });
 
+// like an event
+userRoute.put('like/:eventId', express.json(), verifyJWT, async (req, res) => {
+  try {
+    const user = await User.findOne({
+      username: req.body.username,
+    });
+    if (!user) {
+      res.status(404).json('user not found');
+      return;
+    }
+    const event = await Event.findOne({ _id: ObjectId(req.params.eventId) });
+    if (!event) {
+      res.status(404).json('event not found');
+      return;
+    }
+    if (event.likedBy.includes(user.username)) {
+      res.status(400).json('user already liked event');
+      return;
+    }
+    event.likedBy.push(user.username);
+    await event.save();
+    res.status(200).json({
+      message: 'Event liked',
+    })
+  
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+
 module.exports = userRoute;
 

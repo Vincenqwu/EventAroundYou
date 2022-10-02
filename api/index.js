@@ -9,7 +9,6 @@ const userRoute = require("./routes/userRoute");
 
 dotenv.config();
 
-console.log(process.env.MONGODB_URL);
 mongoose.connect(
   process.env.MONGODB_URL || '',
   {
@@ -31,7 +30,7 @@ app.use(bodyParser.json());
 app.use('/public', express.static('public'));
 
 app.use('/user/', userRoute);
-//app.use('/event/', eventRoute);
+app.use('/event/', eventRoute);
 
 // app.get('/', function (req, res) {
 //   res.send('Hello World!');
