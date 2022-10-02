@@ -9,10 +9,12 @@ import EventDetail from './pages/EventDetail';
 import Signup from './pages/Signup';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Signin from './pages/Signin';
+import NavBar from './components/Navbar';
 
 function App() {
   return (
     <div className='App'>
+    <NavBar/>
       <AppRouter/>
       {/* <Home/> */}
       {/* <FutureEvent/> */}

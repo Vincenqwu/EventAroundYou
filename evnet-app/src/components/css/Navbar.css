@@ -1,0 +1,108 @@
+
+.bannerContainer{
+    padding: 10px 20px;
+    display: flex;
+    
+    flex-wrap: nowrap;
+    -moz-box-align: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 30wh;
+    vertical-align: middle; 
+    color: #fff;
+    background: linear-gradient(-45deg, #06283D,
+    #256D85,
+    #47B5FF,
+    #DFF6FF);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+.bannerContainer button{
+    height: 38px;
+    cursor: "pointer";
+    background-color: transparent;
+    font-weight: bold;
+    font-size:large;
+    border: none;
+    outline: none;
+}
+.header_image {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.btn-logout {
+  margin-left: 20px;
+  width: 160px;
+  font-size: 15px;
+  border: 1px solid #07709d;
+  border-radius: 5px;
+  padding: 3px;
+  margin-top: 5px;
+  float: right;
+  background: #fefefe;
+  color: #07709d;
+  font-weight: 600;
+
+  font-family: sans-serif;
+}
+
+.btn-profile {
+  margin-left: 30px;
+  width: 160px;
+  height: 20px;
+  font-size: 15px;
+  border: 1px solid #07709d;
+  border-radius: 5px;
+  padding: 3px;
+  margin-top: 5px;
+  float: right;
+  background: #fefefe;
+  color: #07709d;
+  font-weight: 600;
+  
+  font-family: sans-serif;
+}
+
+.btn-update {
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 160px;
+  height: 35px;
+  border: 1px solid #07709d;
+  border-radius: 5px;
+  padding: 3px;
+  margin-top: 15px;
+  font-size: 15px;
+  float: right;
+  background: #b5cfd8;
+  color: rgb(202, 6, 6);
+  font-weight: 600;
+ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+  font-size: 36px;
+  margin-left: 22px;
+  font-weight: bold;
+  color: rgb(248, 245, 245);
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bannerLeft {
+  flex: 2;
+}
+
+.bannerRight {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
