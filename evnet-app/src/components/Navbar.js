@@ -10,32 +10,18 @@ export function handleLogout() {
 
 
 const NavBar = () => (
-      <div className="bannerContainer">
-        <div >
-          <img className="header_image" src={logo} alt="Logo" height={40}
+  <div class="header">
+		<div >
+          <img className="logo" src={logo} alt="Logo" height={60}
             />
         </div>
-        <div >
-          <div className="bannerLoginLogout">
-          
-          
-            <a href= './login'>
-              <button className="btn-logout" onClick = {handleLogout}>Sign In</button>
-            </a>
-            <a href= './future'>
-            <button className="btn-profile" >Future event </button>
-          </a> 
-          <a href= './past'>
-            <button className="btn-profile" >Past event </button>
-          </a> 
-
-          <a href= './'>
-            <button className="btn-profile" >Home</button>
-          </a>
-          
-          </div>
-        </div>
-      </div>
+      <ul class="main-nav">
+          <li><a href="./">Home</a></li>
+          <li><a href="./past">Past event</a></li>
+          <li><a href="./future">Future event</a></li>
+          <li><a href="./login">Sign In</a></li>
+      </ul>
+	</div> 
   );
 
 export default NavBar;
