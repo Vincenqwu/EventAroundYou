@@ -13,3 +13,12 @@
     padding: 10px;
     margin:40px;
 }
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100;
+}
+
+.specialCard{
+    margin: 0 auto;
+}
