@@ -13,7 +13,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import axios from "./api/axios"
 
 
-const LOGIN_URL = '/users/login';
+const LOGIN_URL = '/user/login';
  
 /**
  * This is the Copyright component 
@@ -80,7 +80,7 @@ const useStyles = makeStyles((theme) => ({
  * This is the SignIn component. 
  * @returns a html
  */
-export default function SignIn() {
+export default function Signin() {
   const classes = useStyles();
 
   const [user, setUser] = useState('');
