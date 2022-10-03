@@ -1,8 +1,10 @@
 import React from "react";
 import "./css/EventCard.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import {FaStar } from "react-icons/fa";
+import eventDetails from "./dataEvent"
 export default function EventCard() {
+  
   return (
 
       <div className="future-container">
@@ -12,6 +14,7 @@ export default function EventCard() {
         </div>
         <div className="future-title">
           <h3>3 Strategies to Get You Ready for Technical Meeting in 2023</h3>
+        
         </div>
         <div className="future-detail">
           <span>Location</span>
@@ -19,7 +22,7 @@ export default function EventCard() {
           <span>Vancouver</span>
         </div>
         <div className="future-link">
-          <a href="detail">View Event Detail </a>
+          <a href="event">View Event Detail </a>
         </div>
         <hr/>
       </div>

@@ -2,11 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { FaStar } from 'react-icons/fa';
 import "./css/EventCardSliding.css";
-import event_pic1 from './images/event_pic1.jpg'
+import event_pic1 from './images/event_pic5.jpg'
 
-import SingleQuestion from "../components/Question"
+import SingleQuestion from "./Question"
 import { useState } from "react";
-import data from "../components/data"
+import data from "./data"
 
 export default function EventCardSliding() {
   const [questions, setQuestions] = useState(data)
@@ -26,8 +26,19 @@ export default function EventCardSliding() {
 
           <div className="card-title">
             <p>
-              <strong>Succeeding in the new world of mobility</strong>
+              <strong>BTP Roadshow 2022 | Modernize Business Planning</strong>
             </p>
+          </div>
+
+          <div className="card-description">
+          <p><strong>SAP Location:</strong> Paris</p>
+            {/* <span>
+              <p>Event Details</p>
+            </span>
+            <span> • </span>
+            <span>Advanced technologies. </span>
+            <span> • </span>
+            <FaStar color="#f5d24c" className="star"></FaStar> */}
           </div>
 
           <div className="card-description">
@@ -47,12 +58,6 @@ export default function EventCardSliding() {
 <FaStar color="#f5d24c" className="star"></FaStar>
 
 </div>
-
-          <div className="card-description">
-            <span>Location</span>
-            <span> • </span>
-            <span>Online</span>
-          </div>
         </div>
         {/* </a> */}
       {/* </Link> */}

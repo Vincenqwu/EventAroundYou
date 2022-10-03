@@ -2,11 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { FaStar } from 'react-icons/fa';
 import "./css/EventCardSliding.css";
-import event_pic1 from './images/event_pic1.jpg'
+import event_pic1 from './images/event_pic3.png'
 
-import SingleQuestion from "../components/Question"
+import SingleQuestion from "./Question"
 import { useState } from "react";
-import data from "../components/data"
+import data from "./data"
 
 export default function EventCardSliding() {
   const [questions, setQuestions] = useState(data)
@@ -26,8 +26,10 @@ export default function EventCardSliding() {
 
           <div className="card-title">
             <p>
-              <strong>Succeeding in the new world of mobility</strong>
+              <strong>SAP auf dem Logistics Summit 2022</strong>
+              
             </p>
+            
           </div>
 
           <div className="card-description">

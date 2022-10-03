@@ -22,10 +22,7 @@ export default function PastEvent() {
           <EventCard />
           <EventCard />
           <EventCard />
-          <EventCard />
-          <EventCard />
-          <EventCard />
-          <EventCard />
+
         </div>
       </main>
       <div className="pagination-container">

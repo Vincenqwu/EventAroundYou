@@ -22,10 +22,6 @@ export default function FutureEvent() {
           <EventCard />
           <EventCard />
           <EventCard />
-          <EventCard />
-          <EventCard />
-          <EventCard />
-          <EventCard />
         </div>
       </main>
       <div className="pagination-container">

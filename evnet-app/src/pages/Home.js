@@ -18,10 +18,10 @@ export default function Home() {
       <div className="section-container localFavorite">
         <div className="section-header-container">
           <div className="section-header-content">
-            <h1>Most Favorite Event Recently</h1>
+            <h1>Most Popular Event Recently</h1>
             {/* <Link className="section-header-link" to="/trails/map"> */}
-              <strong>view all</strong>
-              <FaArrowCircleRight className="section-header-icon"></FaArrowCircleRight>
+              {/* <strong>view all</strong>
+              <FaArrowCircleRight className="section-header-icon"></FaArrowCircleRight> */}
             {/* </Link> */}
           </div>
         </div>

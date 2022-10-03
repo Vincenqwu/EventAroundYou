@@ -22,8 +22,8 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
-      <Link color="inherit" href="https://github.com/Vincenqwu/covey.town">
-        Github CoveyTown by Qiuan, Skylar, Maisie
+      <Link color="inherit" href="https://github.com/Vincenqwu/covey.town"> 
+      Github by Qiuan, Skylar, Maisie
       </Link>{" "}
       {`${new Date().getFullYear()}.`}
     </Typography>
@@ -142,7 +142,7 @@ export default function Signin() {
         <section>
           <head>
             <title>HTML Meta Tag</title>
-            <meta httpEquiv="refresh" content="2; url = /welcome" />
+            <meta httpEquiv="refresh" content="2; url = /" />
           </head>
           <body>
             <h1>You are logged in!</h1>

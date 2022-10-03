@@ -34,6 +34,9 @@ export default function Filter() {
         <Button className="button me-3" variant="secondary">
           London
         </Button>
+        <Button className="button me-3" variant="secondary">
+          Online
+        </Button>
       </ButtonGroup>
     </div>
   );

@@ -23,7 +23,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
       <Link color="inherit" href="https://github.com/Vincenqwu/covey.town">
-        Github CoveyTown by Qiuan, Tong, Yingying
+        Github CoveyTown by Qiuan, Skylar, Maisie
       </Link>{" "}
       {new Date().getFullYear()}
       .

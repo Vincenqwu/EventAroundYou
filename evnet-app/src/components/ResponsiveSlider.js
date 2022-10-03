@@ -4,6 +4,10 @@ import EventCardSliding from './EventCardSliding';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import "./css/EventCardSliding.css";
+import EventCardSliding1 from './EventCardSliding1';
+import EventCardSliding2 from './EventCardSliding2';
+import EventCardSliding4 from './EventCardSliding4';
+import EventCardSliding5 from './EventCardSliding5';
 
 export default function ResponsiveSlider() {
     var settings = {
@@ -46,11 +50,10 @@ export default function ResponsiveSlider() {
       <div className="slider-wrapper">
         <Slider {...settings}>
             <EventCardSliding />
-            <EventCardSliding />
-            <EventCardSliding />
-            <EventCardSliding />
-            <EventCardSliding />
-            <EventCardSliding />
+            <EventCardSliding1 />
+            <EventCardSliding2 />
+            <EventCardSliding4 />
+            <EventCardSliding5 />
             <EventCardSliding />
             <EventCardSliding />
             <EventCardSliding />

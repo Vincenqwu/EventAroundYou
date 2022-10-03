@@ -1,0 +1,24 @@
+.black-2 {
+    background: #e6e6e6;
+}
+.black-1 {
+    background: #d9d9d9;
+}
+.image{
+    width:250px;
+    height:250px;
+}
+.specialCard{
+    width: 1000px;
+    padding: 10px;
+    margin:40px;
+}
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100;
+}
+
+.specialCard{
+    margin: 0 auto;
+}
